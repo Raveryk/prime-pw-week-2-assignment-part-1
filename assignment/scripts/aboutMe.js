@@ -72,15 +72,17 @@ console.log(mostPets);
 
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
+mostPets;
 
-
-switch (mostPets) {
-  case pets = mostPets:
-  console.log(mostPets);
-  break
-  case friendsPets = mostPets:
-  console.log(mostPets);
-  break
+switch (true) {
+  case pets > friendsPets:
+  console.log(mostPets = pets);
+  break;
+  case friendsPets > pets:
+  console.log(mostPets = friendsPets);
+  break;
 }
+
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 adventurous === true ? console.log("Adventures are great!") : console.log("How about we stay home?");
